@@ -143,10 +143,10 @@ Analise os resultados das consultas no MySQL Workbench
 
 ## 🧑‍💻 Autor
 
-Eduardo Ribeiro
-📍 Brasil
-🎯 Estudante de TI | Foco em Análise de Dados
-🔗 GitHub: https://github.com/eduardo-hribeiro
+**Eduardo Ribeiro**
+- 📍 Brasil
+- 🎯 Estudante de TI | Foco em Análise de Dados
+- 🔗 GitHub: https://github.com/eduardo-hribeiro
 
 ---
 
