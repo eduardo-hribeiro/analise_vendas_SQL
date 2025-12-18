@@ -12,7 +12,7 @@ O foco está na criação de um banco de dados relacional no MySQL, no carregame
 ```
 ├── schema.sql        # Criação do banco de dados e tabelas (DDL)
 ├── inserts.sql       # Inserção de dados fictícios (DML)
-├── queries.sql       # Consultas analíticas e de negócio
+├── queries.sql       # Consultas analíticas e de negócio (DQL)
 └── README.md         # Documentação do projeto
 ```
 
