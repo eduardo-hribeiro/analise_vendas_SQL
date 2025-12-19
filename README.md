@@ -1,9 +1,10 @@
 # 📊 Projeto – Análise de Vendas com SQL (MySQL)
 
-## 🚀 Descrição 
-Este projeto tem como objetivo demonstrar habilidades práticas em modelagem de banco de dados, SQL analítico e análise de dados, simulando um sistema de vendas com clientes, produtos, vendedores e itens de venda.
+## 📌 Visão Geral
+Este projeto tem como objetivo realizar uma análise completa de vendas utilizando MySQL para modelagem, carga e consultas dos dados, e Google Sheets para visualização, KPIs e construção de um dashboard analítico.
 
-O foco está na criação de um banco de dados relacional no MySQL, no carregamento de dados fictícios em volume realista e na elaboração de queries analíticas para extração de insights de negócio.
+O fluxo do projeto simula um cenário real de trabalho em dados:
+- Banco de dados → consultas SQL → exportação → dashboard executivo.
 
 ---
 
@@ -22,9 +23,12 @@ O foco está na criação de um banco de dados relacional no MySQL, no carregame
 
 - Praticar modelagem relacional
 - Trabalhar com dados em escala realista
-- Desenvolver queries analíticas
+- SQL analítico
 - Demonstrar capacidade de gerar insights de negócio com SQL
-- Criar um projeto sólido para portfólio profissional
+- Criação de KPIs
+- Integração entre banco de dados e planilhas
+- Visualização de dados
+- Organização e documentação de projetos para portfólio
 
 ---
 
@@ -107,37 +111,84 @@ Essa consulta calcula a receita mensal e a receita acumulada ao longo do tempo, 
 
 ---
 
+## 📊 Integração com Google Sheets
+Os resultados das consultas SQL foram exportados e organizados em abas específicas no Google Sheets, como:
+
+- receita_mensal
+- total_vendas
+- receita_produto
+- receita_categoria
+- receita_vendedor
+- top10_clientes
+- ticket_medio
+
+Essas abas servem como base de dados para KPIs e gráficos.
+
+---
+
+## 📌 KPIs Criados
+Na aba KPIs, foram calculados indicadores estratégicos, como:
+
+- 💰 Receita Total
+- 🧾 Total de Vendas
+- 📦 Ticket Médio
+- 🏆 Melhor Vendedor (por Receita)
+- ⭐ Produto Campeão (por Receita)
+
+Os KPIs são alimentados dinamicamente a partir das abas de dados.
+
+---
+
+## 📷 Dashboard
+![dashboard](Dashboard.jpeg)
+
+---
+
 ## ▶️ Como Executar o Projeto
 
-- Clone o repositório:
-  ```bash
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Abra o MySQL Workbench
+- Crie o banco de dados
+- Execute o arquivo schema.sql para criar as tabelas
+- Insira os dados
+- Execute o arquivo inserts.sql para popular o banco
+- Execute as análises
+- Rode o arquivo queries.sql para gerar os resultados analíticos
 
-- Abra o MySQL Workbench
-  
-- Execute os scripts na ordem:
-schema.sql, inserts.sql, queries.sql
+Exportação para Google Sheets:
+- Exporte os resultados das queries para CSV
+- Importe cada CSV como uma aba no Google Sheets
 
-Analise os resultados das consultas no MySQL Workbench
+Dashboard:
+Utilize as abas importadas para criar:
+- KPIs
+- Gráficos
+- Dashboard final na aba Dashboard
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- MySQL 8.0+
-- MySQL Workbench
-- SQL (DDL, DML, JOINs, agregações e Window Functions)
-- Git & GitHub
+MySQL
+- Criação de schema relacional
+- Inserção de dados fictícios
+- Consultas analíticas com JOIN, GROUP BY, ORDER BY
+- Funções de data e agregação
+
+Google Sheets
+- Importação dos resultados das consultas SQL
+- Tratamento de dados (texto → número / moeda)
+- KPIs com fórmulas
+- Criação de gráficos e dashboard
+
+GitHub
+- Versionamento do schema, inserts e queries
+- Documentação do projeto
 
 ---
 
 ## 🚀 Próximos Passos (Evoluções Futuras)
 
-- Integração com Excel / Google Sheets
-- Criação de dashboards com base nas queries
-- Inclusão de índices para performance
 - Criação de views analíticas
-- Simulação de regras de negócio (ex: vendas obrigatoriamente com itens)
 
 ---
 
@@ -145,8 +196,7 @@ Analise os resultados das consultas no MySQL Workbench
 
 **Eduardo Ribeiro**
 - 📍 Brasil
-- 🎯 Estudante de TI | Foco em Análise de Dados
-- 🔗 GitHub: https://github.com/eduardo-hribeiro
+- 🎯 Estudante de Análise de Dados | SQL | Google Sheets | Excel
 
 ---
 
