@@ -14,6 +14,7 @@ O fluxo do projeto simula um cenário real de trabalho em dados:
 ├── schema.sql        # Criação do banco de dados e tabelas (DDL)
 ├── inserts.sql       # Inserção de dados fictícios (DML)
 ├── queries.sql       # Consultas analíticas e de negócio (DQL)
+├── Dashboard.jpeg    # Visualização das consultas
 └── README.md         # Documentação do projeto
 ```
 
