@@ -4,7 +4,7 @@
 Este projeto tem como objetivo realizar uma análise completa de vendas utilizando MySQL para modelagem, carga e consultas dos dados, e Google Sheets para visualização, KPIs e construção de um dashboard analítico.
 
 O fluxo do projeto simula um cenário real de trabalho em dados:
-Banco de dados → consultas SQL → exportação → dashboard executivo.
+- Banco de dados → consultas SQL → exportação → dashboard executivo.
 
 ---
 
