@@ -143,6 +143,19 @@ Os KPIs são alimentados dinamicamente a partir das abas de dados.
 
 ---
 
+## 💡 Insights Obtidos
+
+A partir das análises realizadas e do dashboard construído, foi possível identificar alguns insights relevantes:
+
+- A receita apresenta variação ao longo dos meses, indicando sazonalidade nas vendas.
+- Um pequeno grupo de produtos concentra a maior parte do faturamento, evidenciando a importância do mix de produtos.
+- Alguns vendedores se destacam significativamente em relação à receita gerada, o que pode indicar boas práticas comerciais.
+- O ticket médio permanece relativamente estável, sugerindo consistência no comportamento de compra dos clientes.
+
+Esses insights demonstram como o uso de SQL aliado à visualização de dados pode apoiar a tomada de decisão no contexto de negócios.
+
+---
+
 ## ▶️ Como Executar o Projeto
 
 1. Abra o MySQL Workbench  
