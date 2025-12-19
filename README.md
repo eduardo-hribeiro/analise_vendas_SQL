@@ -22,14 +22,12 @@ O fluxo do projeto simula um cenário real de trabalho em dados:
 
 ## 🎯 Objetivos do Projeto
 
-- Praticar modelagem relacional
-- Trabalhar com dados em escala realista
-- SQL analítico
-- Demonstrar capacidade de gerar insights de negócio com SQL
-- Criação de KPIs
-- Integração entre banco de dados e planilhas
-- Visualização de dados
-- Organização e documentação de projetos para portfólio
+- Praticar modelagem de banco de dados relacional
+- Desenvolver consultas SQL analíticas
+- Gerar insights de negócio a partir dos dados
+- Criar KPIs e dashboards
+- Integrar banco de dados com Google Sheets
+- Organizar um projeto completo para portfólio
 
 ---
 
@@ -63,7 +61,7 @@ O projeto utiliza dados fictícios distribuídos de forma realista, incluindo:
 
 ---
 
-## ⚠️ Observação importante:
+## ℹ️ Observação sobre os Dados
 
 Nem todas as vendas possuem itens associados. Isso foi feito propositalmente para simular cenários reais, como:
 
@@ -147,23 +145,14 @@ Os KPIs são alimentados dinamicamente a partir das abas de dados.
 
 ## ▶️ Como Executar o Projeto
 
-Abra o MySQL Workbench
-- Crie o banco de dados
-- Execute o arquivo schema.sql para criar as tabelas
-- Insira os dados
-- Execute o arquivo inserts.sql para popular o banco
-- Execute as análises
-- Rode o arquivo queries.sql para gerar os resultados analíticos
-
-Exportação para Google Sheets:
-- Exporte os resultados das queries para CSV
-- Importe cada CSV como uma aba no Google Sheets
-
-Dashboard:
-Utilize as abas importadas para criar:
-- KPIs
-- Gráficos
-- Dashboard final na aba Dashboard
+1. Abra o MySQL Workbench  
+2. Execute os arquivos na seguinte ordem:
+   - `schema.sql`
+   - `inserts.sql`
+   - `queries.sql`
+3. Exporte os resultados das queries para CSV
+4. Importe cada CSV como uma aba no Google Sheets
+5. Utilize as abas para criar KPIs, gráficos e o dashboard final
 
 ---
 
