@@ -27,7 +27,6 @@ O fluxo do projeto simula um cenário real de trabalho em dados:
 - Gerar insights de negócio a partir dos dados
 - Criar KPIs e dashboards
 - Integrar banco de dados com Google Sheets
-- Organizar um projeto completo para portfólio
 
 ---
 
