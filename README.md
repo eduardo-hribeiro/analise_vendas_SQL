@@ -191,8 +191,7 @@ GitHub
 ## 🧑‍💻 Autor
 
 **Eduardo Ribeiro**
-- 📍 Brasil
-- 🎯 Estudante de Análise de Dados | SQL | Google Sheets | Excel
+- 🎯 Estudante de Análise de Dados 
 
 ---
 
